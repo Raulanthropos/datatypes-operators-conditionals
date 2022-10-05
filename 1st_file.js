@@ -88,8 +88,9 @@ console.log(
 /* WRITE YOUR ANSWER HERE */
 
 let X = 5;
-console.log("five");
 
+let fiveX = X === 5 ? "five" : "not five"
+console.log(fiveX);
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
