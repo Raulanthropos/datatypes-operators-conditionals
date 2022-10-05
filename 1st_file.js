@@ -91,6 +91,7 @@ let X = 5;
 
 let fiveX = X === 5 ? "five" : "not five"
 console.log(fiveX);
+
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
@@ -98,5 +99,5 @@ console.log(fiveX);
 
 /* WRITE YOUR ANSWER HERE */
 
-let testVariable = undefined ? 0 : 1;
+let testVariable = true ? 0 : 1;
 console.log(testVariable);
