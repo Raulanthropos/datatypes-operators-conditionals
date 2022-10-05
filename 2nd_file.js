@@ -19,7 +19,18 @@ console.log(gender);
 
 let int1 = 5;
 let int2 = 3;
-let isAnyOfTheConditionsMet = int1 === 8 ? true : int2 === 8 ? true : int1 + int2 === 8? true : int1 - int2 === 8 ? true : int2 - int1 === 8 ? true : false
+let isAnyOfTheConditionsMet =
+  int1 === 8
+    ? true
+    : int2 === 8
+    ? true
+    : int1 + int2 === 8
+    ? true
+    : int1 - int2 === 8
+    ? true
+    : int2 - int1 === 8
+    ? true
+    : false;
 console.log(isAnyOfTheConditionsMet);
 
 /*EX 3
@@ -46,17 +57,17 @@ let num2 = 5;
 let num3 = 6;
 
 if (num1 < num2 && num2 < num3) {
-    console.log(num1, num2, num3)
+  console.log(num1, num2, num3);
 } else if (num1 < num3 && num3 < num2) {
-    console.log(num1, num3, num2)
+  console.log(num1, num3, num2);
 } else if (num2 < num3 && num3 < num1) {
-    console.log(num2, num3, num1)
+  console.log(num2, num3, num1);
 } else if (num2 < num1 && num1 < num3) {
-    console.log(num2, num1, num3)
+  console.log(num2, num1, num3);
 } else if (num3 < num2 && num2 < num1) {
-    console.log(num3, num2, num1)
+  console.log(num3, num2, num1);
 } else {
-    console.log(num3, num1, num2)
+  console.log(num3, num1, num2);
 }
 
 /*EX 5
@@ -80,7 +91,6 @@ let string3 = "Geisha";
 let string4 = "Robocop";
 let longestString = string3.length > string4.length ? string3 : string4;
 
-
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
@@ -88,7 +98,8 @@ let longestString = string3.length > string4.length ? string3 : string4;
 /* WRITE YOUR ANSWER HERE */
 
 let randomNumber = 10;
-let integerOrNot = randomNumber  === parseInt.randomNumber ? randomNumber : "Not an integer";
+let integerOrNot =
+  randomNumber === parseInt.randomNumber ? randomNumber : "Not an integer";
 console.log(integerOrNot);
 
 /*EX 8
@@ -99,7 +110,7 @@ console.log(integerOrNot);
 /* WRITE YOUR ANSWER HERE */
 
 let givenNumber = 9;
-let percentageNumberTwenty = (givenNumber / 0.20) * 100;
+let percentageNumberTwenty = (givenNumber / 0.2) * 100;
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
